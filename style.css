@@ -1,0 +1,53 @@
+/* Reset styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    gap: 1rem;
+}
+
+input {
+    padding-left: 0.3rem;
+}
+
+button {
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+    background-color: darkcyan;
+    color: white;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 1rem;
+    padding: 3rem;
+    border: 1px solid black;
+}
+
+.img-container img {
+    object-fit: cover;
+    width: 100%;
+}
